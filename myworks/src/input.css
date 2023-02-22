@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* SMOOTH SCROLL */
+html, body {
+    scroll-behavior: smooth;
+}
+
+/* SECTION TITLE */
+.title {
+    @apply text-5xl font-semibold text-left;
+}
+.title::after {
+    content: "";
+    @apply block h-2 w-12 bg-sub rounded-xl;
+}
+
+/* PROFILE */
+.mainvisual {
+    filter: brightness(10%);
+}
+.profile-wall {
+    background-color: rgba(75, 42, 64, 0.3);
+}

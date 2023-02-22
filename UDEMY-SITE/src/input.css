@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* TUTORIAL */
+.easy-button {
+    padding: .5rem 1rem;
+    background-color: #467ef7;
+    color: #fff;
+    border-radius: 4px;
+    font: bold;
+    margin-left: 2rem;
+}
+.easy-button:hover {
+    background-color: #386ad6;
+}
+.btn {
+    @apply font-bold py-2 px-4 rounded ml-8;
+}
+.btn-blue {
+    @apply bg-blue-500 hover:bg-blue-600 text-white;
+}
+
+
+/* PORTFOLIO */
+.secondary-title {
+    @apply text-3xl font-bold;
+}
+.secondary-title::before {
+    content: "";
+    @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+.section-paragraph {
+    @apply text-secondary my-6 w-full max-w-3xl;
+}
+.badge {
+    @apply px-4 py-2 text-sm bg-badge rounded;
+}
