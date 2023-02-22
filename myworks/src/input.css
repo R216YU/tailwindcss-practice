@@ -24,3 +24,8 @@ html, body {
 .profile-wall {
     background-color: rgba(75, 42, 64, 0.3);
 }
+
+/* Skills */
+.frameworkBtn {
+    @apply py-1 px-2 bg-sub rounded-md text-white
+}
