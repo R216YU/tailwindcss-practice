@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Meiryo, sans-serif;
+    color: #383E45;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #24292E;
+}
+
+
+/* CONTAINER */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+    background-color: #FFFFFF;
+}
+
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.header-logo {
+    width: 120px;
+    height: 40px;
+}
+.header-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* MAIN VISUAL */
+.mainVisual {
+    width: 1280px;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* SECTION共通 */
+#about, #bicycle {
+    margin-top: 80px;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #383E45;
+    width: fit-content;
+    margin: 0 auto 80px;
+}
+
+
+/* ABOUT */
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+.about-content-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about-content-text {
+    margin-left: 30px;
+}
+.about-content-text h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.about-content-text p {
+    font-size: 14.4px;
+    text-align: left;
+}
+
+
+/* BICYCLE */
+.bicycle-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.bicycle-grid-content {
+}
+.bicycle-grid-content img {
+    width: 260px;
+    height: 170px;
+}
+.bicycle-grid-content h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+.bicycle-grid-content p {
+    font: 14px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+.footer {
+    margin: 110px 0 10px 0;
+    text-align: center;
+    
+}
+
+
+
+@media (max-width: 600px) {
+
+}
